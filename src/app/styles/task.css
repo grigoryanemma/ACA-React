@@ -1,0 +1,81 @@
+.taskContainer {
+    display: flex;
+}
+
+.taskList {
+    height: 700px;
+    width: 300px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    overflow: scroll;
+
+    border: 1px solid rgb(199, 111, 199);
+}
+
+.taskItem {
+    height: 210px;
+    width: 200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid rgb(235, 122, 81);
+    margin: 10px;
+}
+
+.editItemContainer {
+    display: flex;
+
+    margin: 3px;
+}
+
+.editItemContainer > div {
+    margin: 3px;
+}
+
+.taskEditDeleteBtnContainer {
+    display: flex;
+    margin: 10px;
+}
+
+.taskEditDeleteBtnContainer  button {
+    padding: 5px;
+}
+
+.btnEdit, .btnDelete {
+    height: 30px;
+    width: 60px;
+
+    margin: 3px;
+    background-color: #b5b5f1;
+    border: none;
+    border-radius: 3px;
+}
+
+.btnEdit:hover, .btnDelete:hover {
+    background-color: coral;
+}
+
+.add-task-btn-container {
+    display: flex;
+    align-items: center;
+}
+
+.btn-add {
+    height: 50px;
+    width: 50px;
+
+    background-color: rgb(243, 212, 120);
+    border-color: #b5b5f1;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.btn-add:hover {
+    background-color: coral;
+}

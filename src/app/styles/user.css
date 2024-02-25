@@ -1,0 +1,83 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    padding-top: 6px;
+}
+
+.userContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 180px;
+    width: 310px;
+
+    padding: 5px;
+    border: 1px solid #ea977b;
+    margin: 5px;
+}
+
+.btn {
+    height: 30px;
+    width: 70px;
+
+    margin: 10px;
+    background-color: #b5b5f1;
+    border: none;
+    border-radius: 3px;
+}
+
+.btn:hover {
+    background-color: coral;
+}
+
+.search {
+    width: 150px;
+
+    padding: 5px;
+    margin: 5px;
+}
+
+.search:focus, .inputInEditMode:focus{
+    outline: none;
+}
+
+.editModeContainer {
+    display: flex;
+    margin: 10px;
+}
+
+.btnEdit, .btnCancel {
+    height: 30px;
+    width: 60px;
+
+    margin: 3px;
+    background-color: #b5b5f1;
+    border: none;
+    border-radius: 3px;
+}
+
+.inputInEditMode {
+    height: 25px;
+    width: 100px;
+
+    margin: 3px;
+}
