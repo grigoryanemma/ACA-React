@@ -9,6 +9,7 @@ const ResponsiveApp = () => {
   let content = null;
 
   const handleWindowSize = () => {
+    console.log(window.innerWidth);
     setWindowSize(window.innerWidth);
   };
 
