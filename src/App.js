@@ -5,6 +5,7 @@ import { TodoList } from "./app/components/todoLists/TodoList";
 import { UserList } from "./app/components/users/UserList";
 import { TaskList } from "./app/components/tasks/TaskList";
 import { TodoListWithReducer } from "./app/components/todoLists/TodoListWithReducer";
+import ResponsiveApp from "./app/components/responsives/ResponsiveApp";
 
 function App() {
   const [counterName, setCounterName] = useState("First Counter");
@@ -15,7 +16,8 @@ function App() {
       {/* <TodoList /> */}
       {/* <TodoListWithReducer /> */}
       {/* <UserList /> */}
-      <TaskList />
+      {/* <TaskList /> */}
+      <ResponsiveApp />
     </>
   );
 }
